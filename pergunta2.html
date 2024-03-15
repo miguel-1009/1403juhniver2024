@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Perguntas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Pergunta 2</h1>
+    <div class="box">
+        <div class="pergunta">
+            <p>Qual é o verdadeiro nome desse homem-aranha?</p>
+        </div>
+        <div class="imagem-pergunta">
+            <img src="miles.jpg" width="250" height="150">
+        </div>
+        <div class="resposta">
+            <input type="radio" id="opcao1" name="resposta" value="a">
+            <label for="opcao1">Peter Parker</label>
+        </div>
+        <div class="resposta">
+            <input type="radio" id="opcao2" name="resposta" value="b">
+            <label for="opcao2">Miles Morales </label>
+        </div>
+        <div class="resposta">
+            <input type="radio" id="opcao3" name="resposta" value="c">
+            <label for="opcao3"> Miguel O'Hara</label>
+        </div>
+    </div>
+    <button type="button" onclick="verificarResposta()">Responder</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
